@@ -7,13 +7,13 @@
 const numbers = [89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99];
 // result : 94.0
 
-function algorithm(numbers) {
+function arr_avg(numbers) {
   const sum = numbers.reduce((a, b) => a + b, 0);
   const result = sum / numbers.length;
   return console.log(result.toFixed(1));
 }
 
-algorithm(numbers);
+arr_avg(numbers);
 
 // [reduce]: arr.reduce(previousValue, currentValue) => previousValue + currentValue, initialValue); 배열의 합을 도출
 // [toFixed]: numObj.toFixed([digits]); 소수점 자릿 수 
