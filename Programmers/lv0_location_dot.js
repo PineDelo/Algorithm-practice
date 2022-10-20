@@ -8,9 +8,9 @@
 const dot = [-7, 9]; // return 2
 
 function location_dot(dot) {
-    const [num,num2] = dot;
-    const check = num * num2 > 0;
-    const result = num > 0 ? (check ? 1 : 4) : (check ? 3 : 2);
+    const [num1,num2] = dot;
+    const check = num1 * num2 > 0;
+    const result = num1 > 0 ? (check ? 1 : 4) : (check ? 3 : 2);
     return console.log(result);
 }
 
